@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.9.13 on win32)" generated="20230122 20:06:42.434" rpa="false" schemaversion="3">
+<suite id="s1" name="Robot Interactive Console" source="c:\Users\ArturTranzola\.vscode\extensions\robocorp.robotframework-lsp-1.7.3\src\robotframework_ls\vendored\robotframework_interactive\robot_interactive_console.robot">
+<test id="s1-t1" name="Default Task/Test" line="5">
+<kw name="Interpreter Main Loop" library="MainLoop">
+<kw name="Open the robot order website">
+<msg timestamp="20230122 20:06:43.199" level="FAIL">No keyword with name 'Open the robot order website' found.</msg>
+<status status="FAIL" starttime="20230122 20:06:43.199" endtime="20230122 20:06:43.199"/>
+</kw>
+<kw name="Get CSVFile URL and download file">
+<status status="NOT RUN" starttime="20230122 20:06:43.202" endtime="20230122 20:06:43.202"/>
+</kw>
+<kw name="Get orders">
+<var>${orders}</var>
+<status status="NOT RUN" starttime="20230122 20:06:43.204" endtime="20230122 20:06:43.204"/>
+</kw>
+<for flavor="IN">
+<var>${order}</var>
+<value>@{orders}</value>
+<iter>
+<var name="${order}"/>
+<kw name="Close modal">
+<status status="NOT RUN" starttime="20230122 20:06:43.205" endtime="20230122 20:06:43.205"/>
+</kw>
+<kw name="Fill the form">
+<arg>${order}</arg>
+<status status="NOT RUN" starttime="20230122 20:06:43.207" endtime="20230122 20:06:43.207"/>
+</kw>
+<kw name="Save order details">
+<var>${pdf_path}</var>
+<status status="NOT RUN" starttime="20230122 20:06:43.208" endtime="20230122 20:06:43.208"/>
+</kw>
+<kw name="Get screenshot of the robot">
+<var>${robot_image}</var>
+<status status="NOT RUN" starttime="20230122 20:06:43.210" endtime="20230122 20:06:43.210"/>
+</kw>
+<kw name="Embed robot image to PDF file">
+<arg>${pdf_path}</arg>
+<arg>${robot_image}</arg>
+<status status="NOT RUN" starttime="20230122 20:06:43.211" endtime="20230122 20:06:43.212"/>
+</kw>
+<status status="NOT RUN" starttime="20230122 20:06:43.204" endtime="20230122 20:06:43.212"/>
+</iter>
+<status status="NOT RUN" starttime="20230122 20:06:43.204" endtime="20230122 20:06:43.212"/>
+</for>
+<status status="PASS" starttime="20230122 20:06:42.487" endtime="20230122 20:06:48.740"/>
+</kw>
+<status status="PASS" starttime="20230122 20:06:42.487" endtime="20230122 20:06:48.741"/>
+</test>
+<status status="PASS" starttime="20230122 20:06:42.445" endtime="20230122 20:06:48.742"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot Interactive Console">Robot Interactive Console</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
